@@ -77,9 +77,7 @@ def trainRouteClient():
             path = folder_path
 
             train_valObj = train_validation(path)  # object initialization
-
             train_valObj.train_validation()  # calling the training_validation function
-
             trainModelObj = trainModel()  # object initialization
             trainModelObj.trainingModel()  # training the model for the files in the table
 
